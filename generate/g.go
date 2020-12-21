@@ -14,7 +14,7 @@
 
 package generate
 
-import "github.com/skOak/hee/utils"
+import "hee/utils"
 
 var SQLDriver utils.DocValue
 var SQLConn utils.DocValue
