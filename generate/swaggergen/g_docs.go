@@ -33,8 +33,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	beeLogger "github.com/skOak/hee/logger"
-	bu "github.com/skOak/hee/utils"
+	beeLogger "hee/logger"
+	bu "hee/utils"
 	"sort"
 )
 
@@ -642,7 +642,7 @@ func analyseControllerPkg(vendorPath, localName, pkgpath string) {
 			return
 		}
 		if pkgpath == "github.com/astaxie/beego" ||
-			strings.HasPrefix(pkgpath, "github.com/skOak/hee/") ||
+			strings.HasPrefix(pkgpath, "hee/") ||
 			strings.HasPrefix(pkgpath, "github.com/") {
 			return
 		}

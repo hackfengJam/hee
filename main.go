@@ -18,11 +18,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/skOak/hee/cmd"
-	"github.com/skOak/hee/cmd/commands"
-	"github.com/skOak/hee/config"
-	"github.com/skOak/hee/generate/swaggergen"
-	"github.com/skOak/hee/utils"
+	"hee/cmd"
+	"hee/cmd/commands"
+	"hee/config"
+	"hee/generate/swaggergen"
+	"hee/utils"
 )
 
 func main() {
